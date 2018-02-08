@@ -72,31 +72,31 @@ img::selection {
 img::-moz-selection {
   background: transparent; }
 
-#mainNav .navbar-toggler {
-  font-size: 12px;
-  right: 0;
-  padding: 13px;
-  text-transform: uppercase;
-  color: white;
-  border: 0;
-  background-color: #ffcdd2;
-  font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
-#mainNav .navbar-brand {
-  color: #ffcdd2;
-  font-family: 'Playball', 'Helvetica Neue', Helvetica, Arial, cursive; }
-  #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #ff9aa4; }
-
-#mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
-  font-weight: 400;
-  padding: 0.75em 0;
-  letter-spacing: 1px;
-  color: white;
-  font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #ffcdd2; }
+#mainNav {
+  background-color: #212529; }
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #ffcdd2;
+    font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  #mainNav .navbar-brand {
+    color: #ffcdd2;
+    font-family: 'Playball', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #ff9aa4; }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: #ffcdd2; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -108,7 +108,7 @@ img::-moz-selection {
     border: none;
     background-color: transparent; }
     #mainNav .navbar-brand {
-      font-size: 1.75em;
+      font-size: 3em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
